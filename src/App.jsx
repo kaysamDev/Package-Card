@@ -23,6 +23,16 @@ function App() {
           noContacts= {100}
           noCoffee= {10}
       />
+
+      <Card
+          themeColor= {{primary: "#D7256D", secondary: "#ffffff", textColor: "#111111"}}
+          type= {"Pro"}
+          price= {100}
+          users= {500}
+          noEmail= {`10,000`}
+          noContacts= {100}
+          noCoffee= {100}
+      />
     </div>
   );
 }
